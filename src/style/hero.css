@@ -1,6 +1,6 @@
 .hero {
     margin-top: 150px;
-    max-width: 600px;
+    max-width: 550px;
     width: 100%;
     margin-inline: auto;
 }
@@ -13,7 +13,8 @@
 }
 .glassTag {
     margin-inline: auto;
-    background: rgba(255, 255, 255, 0.25);
+    /* background: rgba(255, 255, 255, 0.25); */
+    background: rgba(62, 62, 62, 0.25);
     backdrop-filter: blur(10px);
     width: fit-content;
     padding: 15px 30px;
@@ -26,6 +27,7 @@
     flex: 1;
     letter-spacing: -1px;
     line-height: 0.85;
+    font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
 .img img {
@@ -42,6 +44,7 @@
     text-decoration-thickness: 4px;
     margin-bottom: 1em;
     font-weight: bold;
+    user-select: none;
 }
 
 .intro_tag:hover {

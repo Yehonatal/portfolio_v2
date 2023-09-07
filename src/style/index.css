@@ -1,9 +1,11 @@
 @charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700&display=swap");
 *:where(
         :not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)
     ) {
     all: unset;
     display: revert;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -88,10 +90,10 @@ meter {
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
         sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    transition: all 0.5s ease-in-out;
-    color: #202020;
+    /* color: #202020; */
+    color: white;
     background: rgb(240, 231, 219);
     /* background-color: white; */
-    scroll-behavior: smooth;
+    background-color: #202020;
     padding: 0 20px;
 }

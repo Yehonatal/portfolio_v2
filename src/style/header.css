@@ -4,7 +4,9 @@ header {
     left: 0;
     position: fixed;
     width: 100%;
-    background: rgba(255, 255, 255, 0.25);
+    /* background: rgba(255, 255, 255, 0.25); */
+    background: rgba(62, 62, 62, 0.25);
+
     z-index: 2;
     backdrop-filter: blur(10px);
 }
@@ -24,6 +26,7 @@ header {
 }
 
 .tag {
+    font-family: "M PLUS Rounded 1c", sans-serif;
     width: 25%;
 }
 li svg {
