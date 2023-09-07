@@ -1,3 +1,64 @@
-header p {
-  color: black;
+header {
+    border: 1px solid rgba(226, 226, 226, 0);
+
+    position: fixed;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.25);
+    z-index: 2;
+    backdrop-filter: blur(10px);
+}
+
+.header_container {
+    display: flex;
+    margin: 0 10px;
+    padding: 5px;
+    align-items: center;
+    margin-inline: auto;
+    max-width: 750px;
+    user-select: none;
+}
+
+.theme_switch {
+    margin-left: auto;
+}
+
+.tag {
+    width: 25%;
+}
+li svg {
+    margin-right: 5px;
+}
+nav {
+    flex: 3;
+    display: flex;
+    gap: 35px;
+    width: 100%;
+}
+
+.tag {
+    font-weight: bold;
+    font-size: 19px;
+    flex: 1;
+    letter-spacing: -1px;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+.switch {
+    background-color: teal;
+    border-radius: 5px;
+    padding: 10px 12.5px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.switch svg {
+    scale: 1.25;
+    fill: rgb(255, 243, 243);
+    transition: all 0.3s ease-in-out;
+}
+
+.switch:hover {
+    background-color: rgb(2, 85, 85);
 }
