@@ -91,4 +91,7 @@ body {
     transition: all 0.5s ease-in-out;
     color: #1a202c;
     background: rgb(240, 231, 219);
+    /* background-color: white; */
+    scroll-behavior: smooth;
+    padding: 0 20px;
 }

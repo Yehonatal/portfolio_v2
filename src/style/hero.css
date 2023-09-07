@@ -6,7 +6,7 @@
 }
 
 .intro_card {
-    margin-top: 2em;
+    margin: 2em 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,6 +25,7 @@
     font-size: 2.75rem;
     flex: 1;
     letter-spacing: -1px;
+    line-height: 0.85;
 }
 
 .img img {
@@ -42,8 +43,10 @@
     margin-bottom: 1em;
     font-weight: bold;
 }
-.intro_desc {
+.intro_desc,
+.on_web {
     line-height: 1.35;
+    margin-bottom: 2em;
 }
 .intro_desc p {
     text-align: justify;
@@ -51,4 +54,99 @@
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
+}
+
+.intro_desc ul {
+    margin-top: 1em;
+    margin-left: 2em;
+}
+.intro_desc ul li {
+    list-style-type: circle;
+}
+
+.btn_portfolio,
+.btn_contact {
+    margin-inline: auto;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    outline: 2px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(239, 239, 239);
+    background-color: rgb(3, 170, 170);
+    padding: 8.5px 15px;
+    max-width: fit-content;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn_portfolio:hover,
+.btn_contact:hover {
+    box-shadow: 2px 2px 12px rgba(0, 128, 128, 0.272);
+    background-color: teal;
+    transform: translateX(2px);
+}
+
+.btn_portfolio a {
+    margin-right: 5px;
+}
+.btn_contact a {
+    margin-left: 5px;
+}
+
+.btn_portfolio span,
+.btn_contact span {
+    display: flex;
+}
+
+.stack_tag {
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+.stack {
+    margin-top: 0.5em;
+    padding-left: 3.4em;
+    text-indent: -3.4em;
+}
+
+.on_web,
+.intro_bio {
+    margin-top: 2em;
+}
+
+.on_web ul li {
+    width: fit-content;
+    border: 2px solid transparent;
+    padding: 7.5px 15px;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.on_web li:hover {
+    border: 2px solid teal;
+    background-color: aquamarine;
+}
+
+.on_web a {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: teal;
+}
+
+.on_web a svg {
+    scale: 1.05;
+    margin-right: 10px;
+}
+
+.footer_tag {
+    margin: 2.5em 0;
+    text-align: center;
+    opacity: 0.4;
+    font-size: 0.85em;
 }
