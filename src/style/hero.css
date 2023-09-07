@@ -1,0 +1,54 @@
+.hero {
+    margin-top: 150px;
+    max-width: 600px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.intro_card {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.glassTag {
+    margin-inline: auto;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    width: fit-content;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.nameTag h1 {
+    font-weight: bold;
+    font-size: 2.75rem;
+    flex: 1;
+    letter-spacing: -1px;
+}
+
+.img img {
+    border-radius: 50%;
+    border: 3px solid teal;
+}
+.intro_tag {
+    font-size: 20px;
+    line-height: 1.33;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: #525252;
+    text-decoration-thickness: 4px;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+.intro_desc {
+    line-height: 1.35;
+}
+.intro_desc p {
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
