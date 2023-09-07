@@ -43,6 +43,11 @@
     margin-bottom: 1em;
     font-weight: bold;
 }
+
+.intro_tag:hover {
+    color: teal;
+    text-decoration-color: teal;
+}
 .intro_desc,
 .on_web {
     line-height: 1.35;

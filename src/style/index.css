@@ -89,7 +89,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
         sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     transition: all 0.5s ease-in-out;
-    color: #1a202c;
+    color: #474747;
     background: rgb(240, 231, 219);
     /* background-color: white; */
     scroll-behavior: smooth;
