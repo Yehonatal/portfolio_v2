@@ -1,5 +1,5 @@
 import "../style/hero.css";
-import hero_img from "../assets/image.jpeg";
+import hero_img from "../assets/hero.png";
 import { BsArrowBarRight } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
