@@ -62,8 +62,9 @@ const Hero = () => {
                 </div>
                 <div className="stack">
                     <span className="stack_tag">2021</span>
-                    Started my bsc (Software Engineering) in haramaya university
-                    college of computing and informatics.
+                    Started my Bachelor of Sciences (Software Engineering)
+                    program in haramaya university college of computing and
+                    informatics.
                 </div>
                 <div className="stack">
                     <span className="stack_tag">2022</span>
