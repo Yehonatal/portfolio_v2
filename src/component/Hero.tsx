@@ -9,7 +9,10 @@ const Hero = () => {
     return (
         <div className="hero">
             <div className="glassTag">
-                <p>Hello, I'm a passionate Developer from Ethiopia!</p>
+                <p>
+                    Hello, I'm a passionate Developer from Ethiopia! site in
+                    development
+                </p>
             </div>
 
             <div className="intro_card">
