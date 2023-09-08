@@ -1,0 +1,26 @@
+[
+    {
+        "cover": "./public/covers/blogs/blog1.webp",
+        "title": "What’s the “thing” holding me back?",
+        "description": "Mediocrity is the trap I always seem to set for myself. The urge to become someone of true value, of great importance creates ...",
+        "link": "https://medium.com/@yonatanafewerk/whats-the-thing-holding-me-back-a0b5ed338576"
+    },
+    {
+        "cover": "./public/covers/blogs/blog2.webp",
+        "title": "I still think about you.",
+        "description": "TPain: (noun) mental suffering or distress, The first word but a different meaning. The last day, ...",
+        "link": "https://medium.com/@yonatanafewerk/i-still-think-about-you-39b65cb94b0d"
+    },
+    {
+        "cover": "./public/covers/blogs/blog3.webp",
+        "title": "Pure bliss hidden in Music.",
+        "description": "Guess the point is music is intertwined with so many of my memories and emotions, It has created a tapestry of experiences ...",
+        "link": "https://medium.com/@yonatanafewerk/pure-bliss-hidden-in-music-ca37e2ec34c3"
+    },
+    {
+        "cover": "./public/covers/blogs/blog4.webp",
+        "title": "Is it too late?",
+        "description": "but the truth is if you can publish this now I know you just will end up becoming stronger today than you were last week ...",
+        "link": "https://medium.com/@yonatanafewerk/is-it-too-late-962fcc1ff6ba"
+    }
+]
