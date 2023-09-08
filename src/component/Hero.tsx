@@ -51,7 +51,12 @@ const Hero = () => {
                 </p>
 
                 <div className="btn_portfolio">
-                    <a href="/works">My portfolio</a>
+                    <a
+                        href="https://yonatanafewerk.super.site/"
+                        target="_blank"
+                    >
+                        My portfolio
+                    </a>
                     <span>
                         <BsArrowBarRight />
                     </span>
