@@ -126,9 +126,6 @@ const Hero = () => {
                     </a>
                 </div>
             </div>
-            <div className="footer_tag">
-                © 2023 Yonatan Afewerk Teshome. All Rights Reserved.
-            </div>
         </div>
     );
 };

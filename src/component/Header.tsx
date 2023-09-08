@@ -34,7 +34,7 @@ function Header() {
         <header>
             <div className="header_container">
                 <div className="tag">
-                    <a href="/Home">
+                    <a href="/">
                         <h3>Yonatan Afewerk</h3>
                     </a>
                 </div>

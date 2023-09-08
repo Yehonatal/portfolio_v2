@@ -1,0 +1,13 @@
+.work {
+    display: grid;
+    align-items: center;
+    place-content: center;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+.work h1 {
+    font-size: 3.5rem;
+
+    font-weight: bold;
+}
