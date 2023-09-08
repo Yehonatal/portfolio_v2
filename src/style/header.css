@@ -93,7 +93,7 @@ nav li a:hover {
         flex: 0 !important;
     }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .hide_desktop {
         display: none;
     }
@@ -112,7 +112,7 @@ nav li a:hover {
 
 .hum_menu_container {
     position: absolute;
-    display: block;
+    /* display: block; */
     border: 1px solid rgb(215, 215, 215);
     padding: 5px 20px;
     top: 50px;
