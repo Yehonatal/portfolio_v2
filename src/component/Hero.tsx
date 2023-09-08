@@ -121,7 +121,7 @@ const Hero = () => {
                     <span>
                         <PiTelegramLogoDuotone />
                     </span>
-                    <a href="https://t.me/Jehonatal" target="_blank">
+                    <a href="https://t.me/LearningStuff" target="_blank">
                         Obsessed, my telegram account{" "}
                     </a>
                 </div>
