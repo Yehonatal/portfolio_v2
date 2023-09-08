@@ -2,6 +2,8 @@ import { GithubOutlined } from "@ant-design/icons";
 import "../style/header.css";
 import { FaCloudMoon } from "react-icons/fa";
 import { BiMenuAltLeft } from "react-icons/bi";
+import logo_icon from "../assets/creativity.png";
+
 import { Link } from "react-router-dom";
 function Header() {
     function changeTheme() {
@@ -34,7 +36,10 @@ function Header() {
         <header>
             <div className="header_container">
                 <div className="tag">
-                    <Link to="/">Yonatan Afewerk</Link>
+                    <Link to="/" className="tag_link">
+                        <img src={logo_icon} alt="logo icon" />
+                        Yonatan Afewerk
+                    </Link>
                 </div>
                 <nav className="hide_mobile">
                     <li>

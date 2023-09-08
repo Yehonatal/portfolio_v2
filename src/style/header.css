@@ -26,13 +26,22 @@ header {
 
 .tag {
     font-family: "M PLUS Rounded 1c", sans-serif;
-    width: 25%;
+    margin-right: 10px;
+    transition: rotate 0.5s linear;
 }
+
+.tag_link {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    /* font-size: 1.25em; */
+}
+
 li svg {
     margin-right: 5px;
 }
 nav {
-    flex: 3;
+    flex: 4;
     display: flex;
     gap: 35px;
     width: 100%;
@@ -40,8 +49,8 @@ nav {
 
 .tag {
     font-weight: bold;
-    font-size: 19px;
-    flex: 1;
+    font-size: 20px;
+    flex: 2;
     letter-spacing: -1px;
 }
 
