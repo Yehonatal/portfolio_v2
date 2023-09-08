@@ -1,6 +1,6 @@
 [
     {
-        "img": "./public/covers/projects/dictdark.png",
+        "img": "/covers/projects/dictdark.png",
         "title": "Dictionary",
         "description": "This is a simple dictionary website that uses the Free Dictionary API to provide users with quick and easy access to word definitions, synonyms, and related terms.",
         "techUsed": ["HTML", "CSS", "JavaScript"],
@@ -8,7 +8,7 @@
         "repoLink": "https://github.com/Yehonatal/Dictionary"
     },
     {
-        "img": "./public/covers/projects/manageschool.jpeg",
+        "img": "/covers/projects/manageschool.jpeg",
         "title": "Manages School v2",
         "description": "This is a simple Student Management System project with a focus on managing students, courses, and grades.",
         "techUsed": ["Java", "JavaFx", "MySql"],
@@ -16,7 +16,7 @@
         "repoLink": "https://github.com/Yehonatal/ManageSchool_v2"
     },
     {
-        "img": "./public/covers/projects/pswgen.png",
+        "img": "/covers/projects/pswgen.png",
         "title": "Password Generator",
         "description": "This is a web app / chrome extension that generates strong and secure passwords with varying levels of complexity.",
         "techUsed": ["HTML", "CSS", "JavaScript"],
@@ -24,7 +24,7 @@
         "repoLink": "https://github.com/Yehonatal/Password-generator"
     },
     {
-        "img": "./public/covers/projects/yourhome.png",
+        "img": "/covers/projects/yourhome.png",
         "title": "Your Home",
         "description": "This is the front-end platform where the backend will be used to connect with database along side the content management system.",
         "techUsed": [

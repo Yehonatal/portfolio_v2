@@ -14,7 +14,7 @@ class Blog extends Component {
     };
 
     componentDidMount() {
-        fetch("./public/data/blogs.json")
+        fetch("/data/blogs.json")
             .then((response) => response.json())
             .then((data) => this.setState({ blogPosts: data }))
             .catch((error) => console.error("Error fetching data:", error));
