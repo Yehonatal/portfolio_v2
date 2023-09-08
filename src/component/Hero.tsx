@@ -29,11 +29,11 @@ const Hero = () => {
                 <h1 className="intro_tag">Work</h1>
                 <p>
                     I am an aspiring Full-Stack Developer with a big-picture
-                    mindset. My goal is to become a well-rounded Dev, leveraging
-                    the latest technologies and methodologies. I understand that
-                    the road ahead is long and challenging, but I'm Disciplined
-                    to stay afloat and code ahead. Along the way maybe make a
-                    difference in people's lives.
+                    mindset. My goal is to become a well-rounded Engineer,
+                    leveraging the latest technologies and methodologies. I
+                    understand that the road ahead is long and challenging, but
+                    I'm Disciplined to stay afloat and code ahead. Along the way
+                    maybe make a difference in people's lives.
                 </p>
                 <ul>
                     <li>
