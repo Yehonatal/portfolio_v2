@@ -4,8 +4,7 @@ header {
     left: 0;
     position: fixed;
     width: 100%;
-    background: rgba(255, 255, 255, 0.25);
-    /* background: rgba(62, 62, 62, 0.25); */
+    background: var(--crl-glass);
 
     z-index: 2;
     backdrop-filter: blur(10px);

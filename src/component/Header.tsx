@@ -3,6 +3,16 @@ import "../style/header.css";
 import { FaCloudMoon } from "react-icons/fa";
 
 function Header() {
+    function changeTheme() {
+        if (document.querySelector("body")?.classList.contains("light_theme")) {
+            document.querySelector("body")?.setAttribute("class", "dark_theme");
+        } else {
+            document
+                .querySelector("body")
+                ?.setAttribute("class", "light_theme");
+        }
+    }
+
     return (
         <header>
             <div className="header_container">
@@ -30,7 +40,7 @@ function Header() {
                 </nav>
 
                 <div className="theme_switch">
-                    <div className="switch">
+                    <div className="switch" onClick={changeTheme}>
                         <FaCloudMoon />
                     </div>
                 </div>

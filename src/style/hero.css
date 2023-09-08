@@ -13,8 +13,7 @@
 }
 .glassTag {
     margin-inline: auto;
-    background: rgba(255, 255, 255, 0.25);
-    /* background: rgba(62, 62, 62, 0.25); */
+    background: var(--crl-glass);
     backdrop-filter: blur(10px);
     width: fit-content;
     padding: 15px 30px;
