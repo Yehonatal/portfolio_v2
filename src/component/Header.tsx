@@ -2,7 +2,7 @@ import { GithubOutlined } from "@ant-design/icons";
 import "../style/header.css";
 import { FaCloudMoon } from "react-icons/fa";
 import { BiMenuAltLeft } from "react-icons/bi";
-
+import { Link } from "react-router-dom";
 function Header() {
     function changeTheme() {
         if (document.querySelector("body")?.classList.contains("light_theme")) {
@@ -34,16 +34,14 @@ function Header() {
         <header>
             <div className="header_container">
                 <div className="tag">
-                    <a href="/">
-                        <h3>Yonatan Afewerk</h3>
-                    </a>
+                    <Link to="/">Yonatan Afewerk</Link>
                 </div>
                 <nav className="hide_mobile">
                     <li>
-                        <a href="/Works">Works</a>
+                        <Link to="/Works">Works</Link>
                     </li>
                     <li>
-                        <a href="/Posts">Posts</a>
+                        <Link to="/Posts">Posts</Link>
                     </li>
                     <li>
                         <a
@@ -66,21 +64,21 @@ function Header() {
                         <BiMenuAltLeft />
                     </div>
                     <div className="hum_menu_container hide">
-                        <li>
-                            <a href="/Works">Works</a>
-                        </li>
-                        <li>
-                            <a href="/Posts">Posts</a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://github.com/Yehonatal/portfolio_v2"
-                                target="_blank"
-                            >
+                        <Link to="/Works">
+                            <li>Works</li>
+                        </Link>
+                        <Link to="/Posts">
+                            <li>Posts</li>
+                        </Link>
+                        <a
+                            href="https://github.com/Yehonatal/portfolio_v2"
+                            target="_blank"
+                        >
+                            <li>
                                 <GithubOutlined />
                                 Source
-                            </a>
-                        </li>
+                            </li>
+                        </a>
                     </div>
                 </nav>
             </div>
