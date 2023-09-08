@@ -11,7 +11,7 @@ function Header() {
                         <h3>Yonatan Afewerk</h3>
                     </a>
                 </div>
-                <nav>
+                <nav className="hide_mobile">
                     <li>
                         <a href="#">Works</a>
                     </li>

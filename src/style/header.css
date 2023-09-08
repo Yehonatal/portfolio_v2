@@ -73,3 +73,9 @@ nav li a:hover {
 .switch:hover {
     background-color: rgb(2, 85, 85);
 }
+
+@media (max-width: 768px) {
+    .hide_mobile {
+        display: none;
+    }
+}
