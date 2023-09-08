@@ -8,14 +8,14 @@
     justify-content: center;
 }
 
-h1 {
+.not_found h1 {
     font-size: 3rem;
     color: var(--crl-txt);
     margin-bottom: 1rem;
     font-weight: bold;
 }
 
-p {
+.not_found p {
     font-size: 1rem;
     color: #777;
     text-align: center;
@@ -33,7 +33,7 @@ p {
 }
 
 /* Center the image */
-img {
+.not_found img {
     margin-top: 2em;
     max-width: 80%;
     height: auto;
