@@ -38,7 +38,6 @@ function Header() {
                         </a>
                     </li>
                 </nav>
-
                 <div className="theme_switch">
                     <div className="switch" onClick={changeTheme}>
                         <FaCloudMoon />
