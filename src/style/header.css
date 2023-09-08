@@ -63,6 +63,13 @@ nav li a:hover {
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
+.hum_menu {
+    background-color: var(--crl-glass);
+    border-radius: 5px;
+    padding: 10px 12.5px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
 .switch svg {
     scale: 1.25;
     fill: rgb(255, 243, 243);
@@ -77,4 +84,54 @@ nav li a:hover {
     .hide_mobile {
         display: none;
     }
+
+    .header_container {
+        gap: 20px;
+        width: 100%;
+    }
+    nav {
+        flex: 0 !important;
+    }
+}
+@media (min-width: 768px) {
+    .hide_desktop {
+        display: none;
+    }
+}
+.hide_desktop .hide {
+    display: none;
+}
+.hide_desktop svg {
+    scale: 1.5;
+}
+.hum_menu {
+    transition: all 0.35s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.hum_menu_container {
+    position: absolute;
+    display: block;
+    border: 1px solid rgb(215, 215, 215);
+    padding: 5px 20px;
+    top: 50px;
+    left: 50%;
+    right: 0;
+    border-radius: 5px;
+    background-color: #202020;
+    backdrop-filter: blur(10px);
+    transition: all 0.35s ease-in-out;
+}
+
+.hum_menu_container li {
+    background-color: var(--crl-glass);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.hum_menu_container li svg {
+    scale: 1;
 }
