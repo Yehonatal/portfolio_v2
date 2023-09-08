@@ -99,9 +99,13 @@ meter {
     --crl-glass: rgba(62, 62, 62, 0.25);
 }
 
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+:root {
+    --ff-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
         sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+    font-family: var(--ff-family);
     color: var(--crl-txt);
     background: var(--crl-bg);
     padding: 0 20px;
