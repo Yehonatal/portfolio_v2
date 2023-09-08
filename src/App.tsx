@@ -14,8 +14,8 @@ function App() {
             <Header />
             <Routes>
                 <Route path="/" Component={Hero} />
-                <Route path="/Works" Component={Work} />
-                <Route path="/Posts" Component={Post} />
+                <Route path="/works" Component={Work} />
+                <Route path="/posts" Component={Post} />
                 <Route path="/*" Component={NotFound} />
             </Routes>
             <Footer />

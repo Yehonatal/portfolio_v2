@@ -43,10 +43,10 @@ function Header() {
                 </div>
                 <nav className="hide_mobile">
                     <li>
-                        <Link to="/Works">Works</Link>
+                        <Link to="/works">Works</Link>
                     </li>
                     <li>
-                        <Link to="/Posts">Posts</Link>
+                        <Link to="/posts">Posts</Link>
                     </li>
                     <li>
                         <a
@@ -69,10 +69,10 @@ function Header() {
                         <BiMenuAltLeft />
                     </div>
                     <div className="hum_menu_container hide">
-                        <Link to="/Works">
+                        <Link to="/works">
                             <li>Works</li>
                         </Link>
-                        <Link to="/Posts">
+                        <Link to="/posts">
                             <li>Posts</li>
                         </Link>
                         <a
