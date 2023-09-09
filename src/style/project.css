@@ -12,8 +12,9 @@
 }
 
 .project-card img {
-    height: 180px;
     object-fit: cover;
+    width: 100%;
+    height: 200px;
     border-radius: 10px;
     margin-bottom: 12px;
 }
@@ -109,10 +110,8 @@
 }
 .blurred-img {
     background-repeat: no-repeat;
-    height: 180px;
     background-size: cover;
-
-    object-fit: cover;
+    height: 200px;
     border-radius: 10px;
     margin-bottom: 12px;
     position: relative;
