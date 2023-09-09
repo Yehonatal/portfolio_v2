@@ -3,7 +3,11 @@ import { BiSolidArrowToRight } from "react-icons/bi";
 import "../style/work.css";
 const Work = () => {
     return (
-        <>
+        <div className="works">
+            <div className="projects-header">
+                <hr />
+            </div>
+
             <Project />
             <div className="more_link">
                 <a
@@ -15,7 +19,12 @@ const Work = () => {
                     <BiSolidArrowToRight />
                 </a>
             </div>
-        </>
+
+            <div className="collabs-header">
+                <h2 className="title">Collaborations</h2>
+                <hr />
+            </div>
+        </div>
     );
 };
 

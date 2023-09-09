@@ -1,6 +1,7 @@
 [
     {
         "img": "/covers/projects/dictdark.png",
+        "imgSmall": "/covers/projects/dictdarksmall.png",
         "title": "Dictionary",
         "description": "This is a simple dictionary website that uses the Free Dictionary API to provide users with quick and easy access to word definitions, synonyms, and related terms.",
         "techUsed": ["HTML", "CSS", "JavaScript"],
@@ -9,6 +10,7 @@
     },
     {
         "img": "/covers/projects/manageschool.jpeg",
+        "imgSmall": "/covers/projects/manageschoolsmall.jpeg",
         "title": "Manages School v2",
         "description": "This is a simple Student Management System project with a focus on managing students, courses, and grades.",
         "techUsed": ["Java", "JavaFx", "MySql"],
@@ -17,6 +19,7 @@
     },
     {
         "img": "/covers/projects/pswgen.png",
+        "imgSmall": "/covers/projects/pswgensmall.png",
         "title": "Password Generator",
         "description": "This is a web app / chrome extension that generates strong and secure passwords with varying levels of complexity.",
         "techUsed": ["HTML", "CSS", "JavaScript"],
@@ -25,6 +28,7 @@
     },
     {
         "img": "/covers/projects/yourhome.png",
+        "imgSmall": "/covers/projects/yourhomesmall.png",
         "title": "Your Home",
         "description": "This is the front-end platform where the backend will be used to connect with database along side the content management system.",
         "techUsed": [
@@ -41,6 +45,7 @@
     },
     {
         "img": "/covers/projects/othermedark.png",
+        "imgSmall": "/covers/projects/othermesmall.png",
         "title": "Other me",
         "description": "Using the GitHub users API to pull profile data and display it.",
         "techUsed": ["HTML", "CSS", "JavaScript"],
@@ -49,6 +54,7 @@
     },
     {
         "img": "/covers/projects/portfolio_v2.png",
+        "imgSmall": "/covers/projects/portfolio_v2small.png",
         "title": "Portfolio",
         "description": "Portfolio page ... yayyyyyyy this one :) .",
         "techUsed": ["Vite", "React", "Typescript"],

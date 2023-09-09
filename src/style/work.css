@@ -1,14 +1,17 @@
-.work {
+.works {
     display: grid;
     align-items: center;
     place-content: center;
     justify-content: center;
-    margin-top: 10em;
+    margin-top: 5em;
+    max-width: 700px;
+    margin-inline: auto;
+    position: relative;
 }
 
 .work h1 {
     font-size: 3.5rem;
-
+    font-family: var(--ff-family);
     font-weight: bold;
 }
 .more_link {
@@ -16,6 +19,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+hr {
+    outline: 1px solid teal;
+    margin-top: 0.5em;
 }
 
 .more_link a {
@@ -41,4 +53,8 @@
     transform: translateX(2.5px);
     fill: teal;
     scale: 1.25;
+}
+
+.collabs-header {
+    margin-top: 2.5em;
 }

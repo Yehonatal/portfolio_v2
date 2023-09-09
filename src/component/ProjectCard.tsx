@@ -1,9 +1,10 @@
-import "../style/project.css";
+import React, { useState } from "react";
 import { GoRepo } from "react-icons/go";
 import { BsLink45Deg } from "react-icons/bs";
-
+import "../style/project.css";
 interface ProjectPost {
     img: string;
+    imgSmall: string;
     title: string;
     description: string;
     techUsed: string[];
@@ -16,9 +17,25 @@ interface ProjectPostCardProps {
 }
 
 const ProjectCard: React.FC<ProjectPostCardProps> = ({ project }) => {
+    const [isImageLoaded, setIsImageLoaded] = useState(false);
+
+    const handleImageLoad = () => {
+        setIsImageLoaded(true);
+    };
+
     return (
         <div className="project-card">
-            <img src={project.img} alt={project.title} />
+            <div
+                className={`blurred-img ${isImageLoaded ? "loaded" : ""}`}
+                style={{ backgroundImage: `url(${project.imgSmall})` }}
+            >
+                <img
+                    src={project.img}
+                    alt={project.title}
+                    loading="lazy"
+                    onLoad={handleImageLoad}
+                />
+            </div>
             <div className="project-content">
                 <div className="project-head">
                     <div>
