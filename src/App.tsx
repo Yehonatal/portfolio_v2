@@ -16,7 +16,7 @@ function App() {
                 <Route path="/" Component={Hero} />
                 <Route path="/works" Component={Work} />
                 <Route path="/posts" Component={Post} />
-                <Route path="/*" Component={NotFound} />
+                <Route path="*" Component={NotFound} />
             </Routes>
             <Footer />
         </Router>
