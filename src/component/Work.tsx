@@ -1,5 +1,6 @@
 import Project from "./Project";
 import { BiSolidArrowToRight } from "react-icons/bi";
+
 import "../style/work.css";
 const Work = () => {
     return (

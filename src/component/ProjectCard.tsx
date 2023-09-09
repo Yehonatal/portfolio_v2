@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { GoRepo } from "react-icons/go";
 import { BsLink45Deg } from "react-icons/bs";
+import { AiFillGithub } from "react-icons/ai";
 import "../style/project.css";
 interface ProjectPost {
     img: string;
@@ -55,7 +55,7 @@ const ProjectCard: React.FC<ProjectPostCardProps> = ({ project }) => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <GoRepo />
+                            <AiFillGithub />
                         </a>
                     </div>
                 </div>

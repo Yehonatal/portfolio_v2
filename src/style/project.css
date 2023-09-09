@@ -86,7 +86,7 @@
 }
 .links a:last-of-type svg {
     fill: var(--crl-txt);
-    scale: 1.15;
+    scale: 1.35;
 }
 
 .links a:hover {
