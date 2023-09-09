@@ -5,6 +5,8 @@ import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsTelegram } from "react-icons/bs";
 import { PiTelegramLogoDuotone } from "react-icons/pi";
+import { Link } from "react-router-dom";
+
 const Hero = () => {
     return (
         <div className="hero">
@@ -51,12 +53,7 @@ const Hero = () => {
                 </p>
 
                 <div className="btn_portfolio">
-                    <a
-                        href="https://yonatanafewerk.super.site/"
-                        target="_blank"
-                    >
-                        My portfolio
-                    </a>
+                    <Link to="/works">My portfolio</Link>
                     <span>
                         <BsArrowBarRight />
                     </span>

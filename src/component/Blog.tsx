@@ -1,16 +1,9 @@
 import { Component } from "react";
 import BlogPostCard from "./BlogPostCard";
 
-interface BlogPost {
-    cover: string;
-    title: string;
-    description: string;
-    link: string;
-}
-
 class Blog extends Component {
     state = {
-        blogPosts: [] as BlogPost[],
+        blogPosts: [],
     };
 
     componentDidMount() {
