@@ -77,3 +77,48 @@
     fill: teal;
     scale: 1.25;
 }
+.blurred-img {
+    max-width: 100%;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.blurred-img::before {
+    content: "";
+    border-radius: 10px;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    animation: pulse 2.5s infinite;
+    background-color: black;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.blurred-img.loaded::before {
+    animation: none;
+    content: none;
+}
+
+.blurred-img img {
+    opacity: 0;
+    transition: opacity 250ms ease-in-out;
+}
+
+.blurred-img.loaded img {
+    opacity: 1;
+}

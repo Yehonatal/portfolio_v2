@@ -115,15 +115,18 @@
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 12px;
+    position: relative;
 }
 
 .blurred-img::before {
     content: "";
+    border-radius: 10px;
     position: absolute;
     inset: 0;
     opacity: 0;
     animation: pulse 2.5s infinite;
-    background-color: var(--text-color);
+    background-color: var(--crl-txt);
+    filter: blur(250px);
 }
 
 @keyframes pulse {
