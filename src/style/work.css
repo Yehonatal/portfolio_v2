@@ -11,3 +11,34 @@
 
     font-weight: bold;
 }
+.more_link {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more_link a {
+    display: block;
+    margin-top: 16px;
+    font-weight: 600;
+    color: teal;
+    text-decoration: none;
+    display: flex;
+    border: 1px solid transparent;
+    width: max-content;
+    padding: 3px 5px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.more_link a svg {
+    transition: all 0.5s ease-in-out;
+    scale: 1;
+    fill: transparent;
+}
+
+.more_link a:hover svg {
+    transform: translateX(2.5px);
+    fill: teal;
+    scale: 1.25;
+}
