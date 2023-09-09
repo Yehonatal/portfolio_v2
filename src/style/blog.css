@@ -59,8 +59,21 @@
     font-weight: 600;
     color: teal;
     text-decoration: none;
+    display: flex;
+    border: 1px solid transparent;
+    width: max-content;
+    padding: 3px 5px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.blog-card a svg {
+    transition: all 0.5s ease-in-out;
+    scale: 1;
+    fill: transparent;
 }
 
-.blog-card a:hover {
-    text-decoration: underline;
+.blog-card a:hover svg {
+    transform: translateX(2.5px);
+    fill: teal;
+    scale: 1.25;
 }

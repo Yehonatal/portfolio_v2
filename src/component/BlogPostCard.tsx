@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/blog.css";
+import { BiSolidArrowToRight } from "react-icons/bi";
 
 interface BlogPost {
     cover: string;
@@ -20,6 +21,7 @@ const BlogPostCard: React.FC<BlogPostCardProps> = ({ post }) => (
             <p>{post.description}</p>
             <a href={post.link} target="_blank" rel="noopener noreferrer">
                 Read More
+                <BiSolidArrowToRight />
             </a>
         </div>
     </div>
