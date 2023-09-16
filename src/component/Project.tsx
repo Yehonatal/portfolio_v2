@@ -1,5 +1,6 @@
 import { Component } from "react";
 import ProjectCard from "./ProjectCard";
+import "../style/loading.css";
 
 class Project extends Component {
     state = {
@@ -18,9 +19,15 @@ class Project extends Component {
 
         return (
             <div className="project-container">
-                {projectPosts.map((project, index) => (
-                    <ProjectCard key={index} project={project} />
-                ))}
+                {!projectPosts.length ? (
+                    <div className="loading">
+                        <h1>... </h1>
+                    </div>
+                ) : (
+                    projectPosts.map((project, index) => (
+                        <ProjectCard key={index} project={project} />
+                    ))
+                )}
             </div>
         );
     }

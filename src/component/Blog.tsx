@@ -18,9 +18,15 @@ class Blog extends Component {
 
         return (
             <div className="blog-container">
-                {blogPosts.map((post, index) => (
-                    <BlogPostCard key={index} post={post} />
-                ))}
+                {!blogPosts.length ? (
+                    <div className="loading">
+                        <h1>...</h1>
+                    </div>
+                ) : (
+                    blogPosts.map((post, index) => (
+                        <BlogPostCard key={index} post={post} />
+                    ))
+                )}
             </div>
         );
     }
