@@ -63,7 +63,7 @@
         "repoLink": "https://github.com/Yehonatal/YourHome"
     },
     {
-        "img": "./public/covers/projects/othermedark.png",
+        "img": "/covers/projects/othermedark.png",
         "title": "Other me",
         "description": "Using the GitHub users API to pull profile data and display it.",
         "techUsed": ["HTML", "CSS", "JavaScript"],
@@ -71,7 +71,7 @@
         "repoLink": "https://github.com/Yehonatal/otherme"
     },
     {
-        "img": "./public/covers/projects/portfolio_v2.png",
+        "img": "/covers/projects/portfolio_v2.png",
         "title": "Portfolio",
         "description": "Portfolio page ... yayyyyyyy this one :) .",
         "techUsed": ["Vite", "React", "Typescript"],
