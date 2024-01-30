@@ -2,7 +2,6 @@ import { GithubOutlined } from "@ant-design/icons";
 import "../style/header.css";
 import { FaCloudMoon } from "react-icons/fa";
 import { BiMenuAltLeft } from "react-icons/bi";
-import logo_icon from "../assets/creativity.png";
 
 import { Link } from "react-router-dom";
 function Header() {
@@ -37,7 +36,6 @@ function Header() {
             <div className="header_container">
                 <div className="tag">
                     <Link to="/" className="tag_link">
-                        <img src={logo_icon} alt="logo icon" />
                         Yonatan Afewerk
                     </Link>
                 </div>

@@ -1,5 +1,5 @@
 import "../style/hero.css";
-import hero_img from "../assets/hero.png";
+import hero_img from "../assets/me.png";
 import { BsArrowBarRight } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
@@ -22,7 +22,7 @@ const Hero = () => {
                     <p>Digital Nomad (Developer / Designer / Writer)</p>
                 </div>
                 <div className="img">
-                    <img src={hero_img} alt="image" width="125px" />
+                    <img src={hero_img} alt="image" />
                 </div>
             </div>
 
