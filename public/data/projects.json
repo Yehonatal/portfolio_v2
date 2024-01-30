@@ -2,7 +2,7 @@
     {
         "img": "/covers/projects/yourhome2.jpg",
         "title": "You and Your Home",
-        "description": "A school project for an e-commerce site, with all the bills and whisles",
+        "description": "A school project for an e-commerce site, with all the bells and whistles",
         "techUsed": [
             "React",
             "Tailwindcss",
@@ -16,7 +16,7 @@
     },
     {
         "img": "/covers/projects/sillyblogs.jpg",
-        "title": "Utitlied blogs",
+        "title": "Untitled blogs",
         "description": "A simple blog site for all your untitled blogs, they don't need to be perfect nor need titles :) just write and post and see the world learn from your life.",
         "techUsed": ["React", "Tailwindcss", "MongoDb"],
         "liveLink": "https://sillyblogs.vercel.app/",
