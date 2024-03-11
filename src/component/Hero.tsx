@@ -13,7 +13,9 @@ const Hero = () => {
                 <p>
                     Hello, I'm a passionate Developer from Ethiopia!
                     <br /> 
+                    <span className="dev-flag">
                     site in development
+                    </span>
                 </p>
             </div>
 
