@@ -171,3 +171,9 @@
     opacity: 0.4;
     font-size: 0.85em;
 }
+
+.dev-flag{
+    font-weight: bold;
+    color: tomato;
+}
+    
