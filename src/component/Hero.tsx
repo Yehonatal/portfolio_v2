@@ -11,8 +11,9 @@ const Hero = () => {
         <div className="hero">
             <div className="glassTag">
                 <p>
-                    Hello, I'm a passionate Developer from Ethiopia! site in
-                    development
+                    Hello, I'm a passionate Developer from Ethiopia!
+                    <br /> 
+                    site in development
                 </p>
             </div>
 
@@ -69,13 +70,13 @@ const Hero = () => {
                 <div className="stack">
                     <span className="stack_tag">2021</span>
                     Started my Bachelor of Sciences (Software Engineering)
-                    program in haramaya university college of computing and
+                    program in Haramaya University College of Computing and
                     informatics.
                 </div>
                 <div className="stack">
                     <span className="stack_tag">2022</span>
-                    When i actual started to enjoy programming and thought of it
-                    as a career i would excel in if i give it my all.
+                    When I actually started to enjoy programming and thought of it
+                    as a career, i would excel in if i give it my all.
                 </div>
                 <div className="stack">
                     <span className="stack_tag">2023 to present</span>
@@ -112,7 +113,7 @@ const Hero = () => {
                 <h1 className="intro_tag">Where you can get my content</h1>
                 <p>
                     Join me on a behind-the-scene programming journey, Weekly
-                    updates on projects, blogs and other content
+                    updates on projects, blogs, and other content
                 </p>
 
                 <div className="btn_contact">
@@ -120,7 +121,7 @@ const Hero = () => {
                         <PiTelegramLogoDuotone />
                     </span>
                     <a href="https://t.me/LearningStuff" target="_blank">
-                        Obsessed, my telegram account{" "}
+                        Obsessed, my telegram channel{" "}
                     </a>
                 </div>
             </div>
