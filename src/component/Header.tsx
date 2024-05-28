@@ -6,13 +6,13 @@ import { BiMenuAltLeft } from "react-icons/bi";
 import { Link } from "react-router-dom";
 function Header() {
     function changeTheme() {
-        if (document.querySelector("body")?.classList.contains("light_theme")) {
-            document.querySelector("body")?.setAttribute("class", "dark_theme");
-        } else {
-            document
-                .querySelector("body")
-                ?.setAttribute("class", "light_theme");
-        }
+        // if (document.querySelector("body")?.classList.contains("light_theme")) {
+        //     document.querySelector("body")?.setAttribute("class", "dark_theme");
+        // } else {
+        //     document
+        //         .querySelector("body")
+        //         ?.setAttribute("class", "light_theme");
+        // }
     }
 
     function humActions() {
@@ -58,7 +58,7 @@ function Header() {
                 </nav>
                 {/* changeTheme function for the onclick  */}
                 <div className="theme_switch">
-                    <div className="switch" onClick={() => {}}>
+                    <div className="switch" onClick={changeTheme}>
                         <FaCloudMoon />
                     </div>
                 </div>
