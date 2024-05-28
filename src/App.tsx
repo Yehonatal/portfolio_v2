@@ -1,3 +1,4 @@
+import "./index.css";
 import Header from "./component/Header";
 import Hero from "./component/Hero";
 import Work from "./component/Work";

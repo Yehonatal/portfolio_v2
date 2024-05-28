@@ -34,8 +34,8 @@ function Header() {
     return (
         <header>
             <div className="header_container">
-                <div className="tag">
-                    <Link to="/" className="tag_link">
+                <div className="tag ">
+                    <Link to="/" className="tag_link  ">
                         Yonatan Afewerk
                     </Link>
                 </div>
@@ -56,8 +56,9 @@ function Header() {
                         </a>
                     </li>
                 </nav>
+                {/* changeTheme function for the onclick  */}
                 <div className="theme_switch">
-                    <div className="switch" onClick={changeTheme}>
+                    <div className="switch" onClick={() => {}}>
                         <FaCloudMoon />
                     </div>
                 </div>

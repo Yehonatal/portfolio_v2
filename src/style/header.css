@@ -1,23 +1,27 @@
 header {
     border: 1px solid rgba(226, 226, 226, 0);
-    top: 0;
+    top: -1px;
     left: 0;
     position: fixed;
     width: 100%;
-    background: var(--crl-glass);
 
     z-index: 2;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(15px); */
 }
 
 .header_container {
+    border: 1px solid #f2ffff65;
+    border-radius: 10px;
     display: flex;
     margin: 0 10px;
-    padding: 5px;
+    padding: 4px 10px;
     align-items: center;
     margin-inline: auto;
+    /* background-color: white; */
     max-width: 750px;
     user-select: none;
+    background: #f2ffff65;
+    backdrop-filter: blur(10px);
 }
 
 .theme_switch {
