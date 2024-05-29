@@ -20,13 +20,13 @@
 }
 
 .project-card h2 {
-    font-size: 1.5rem;
+    font-size: 1.15rem;
     font-weight: bold;
     hyphens: auto;
 }
 
 .project-card p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #555;
     line-height: 1.25;
     text-align: justify;
@@ -63,12 +63,13 @@
     transition: all 0.3s ease-in-out;
     font-weight: bold;
     cursor: pointer;
+    font-size: 0.85rem;
 }
 
 .tech:hover {
     color: var(--crl-txt);
     background-color: var(--crl-glass);
-    border: 1px solid transparent;
+    border: 1px solid var(--crl-glass);
 }
 
 .links a {

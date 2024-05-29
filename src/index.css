@@ -94,7 +94,7 @@ meter {
 .light_theme {
     --crl-bg: #f0e7db;
     --crl-txt: #202020;
-    --crl-glass: rgba(255, 255, 255, 0.25);
+    --crl-glass: rgba(255, 255, 255, 0.534);
 }
 
 .dark_theme {

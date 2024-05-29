@@ -10,7 +10,7 @@
 }
 
 .work h1 {
-    font-size: 3.5rem;
+    /* font-size: 3.5rem; */
     font-family: var(--ff-family);
     font-weight: bold;
 }
@@ -22,7 +22,7 @@
 }
 .title {
     font-weight: bold;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     font-family: "M PLUS Rounded 1c", sans-serif;
 }
 hr {

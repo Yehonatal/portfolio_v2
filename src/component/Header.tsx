@@ -46,13 +46,14 @@ function Header() {
                     <li>
                         <Link to="/posts">Posts</Link>
                     </li>
-                    <li>
+                    <li className="flex ">
                         <a
                             href="https://github.com/Yehonatal/portfolio_v2"
                             target="_blank"
                         >
-                            <GithubOutlined />
-                            Source
+                            <div className="flex">
+                                <GithubOutlined />
+                            </div>
                         </a>
                     </li>
                 </nav>
