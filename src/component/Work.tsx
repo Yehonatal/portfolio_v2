@@ -12,8 +12,9 @@ const Work = () => {
             <Project />
 
             <div className="collabs-header">
-                <h2 className="title">More Projects</h2>
+                <h1 className="title">More Projects</h1>
                 <hr />
+                <br />
 
                 <OtherProjects />
             </div>
