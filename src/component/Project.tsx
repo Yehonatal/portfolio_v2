@@ -16,6 +16,7 @@ class Project extends Component {
     // render component
     render() {
         const { projectPosts } = this.state;
+        console.log(projectPosts);
 
         return (
             <div className="project-container">
