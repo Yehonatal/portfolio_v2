@@ -147,16 +147,20 @@ nav li a:hover {
     left: 50%;
     right: 0;
     border-radius: 5px;
-    background-color: var(--crl-bg);
-    backdrop-filter: blur(10px);
+    /* background-color: var(--crl-bg); */
+    background: #f2ffffcc;
     transition: all 0.35s ease-in-out;
 }
 
 .hum_menu_container li {
     background-color: var(--crl-glass);
+    backdrop-filter: blur(10px) !important;
     padding: 10px;
     border-radius: 5px;
     font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
     margin: 5px 0;
 }
 
