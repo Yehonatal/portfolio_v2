@@ -109,10 +109,10 @@ meter {
 }
 
 body {
-    font-family: var(--ff-family);
+    /* font-family: var(--ff-family); */
     color: var(--crl-txt);
     /* background: var(--crl-bg); */
     padding: 0 20px;
     transition: background-color 0.3s ease-in-out;
-    font-size: 0.97em !important;
+    font-size: 0.95em !important;
 }
