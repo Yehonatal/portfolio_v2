@@ -28,10 +28,10 @@
 .project-card p {
     font-size: 0.9rem;
     color: var(--crl-txt);
+    opacity: 0.75;
     line-height: 1.25;
     text-align: justify;
     hyphens: auto;
-    opacity: 0.75;
 }
 
 .project-card .links {
