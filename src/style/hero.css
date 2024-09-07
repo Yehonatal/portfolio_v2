@@ -26,7 +26,6 @@
     flex: 1;
     letter-spacing: -1px;
     line-height: 0.85;
-    font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
 .img {
@@ -172,8 +171,7 @@
     font-size: 0.85em;
 }
 
-.dev-flag{
+.dev-flag {
     font-weight: bold;
     color: tomato;
 }
-    

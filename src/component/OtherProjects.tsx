@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import "../style/OtherProjects.css";
-
+import { BsLink45Deg } from "react-icons/bs";
+import { AiFillGithub } from "react-icons/ai";
 interface Project {
     img: string;
+    link: string;
 }
 
 const OtherProjects = () => {
@@ -24,6 +26,14 @@ const OtherProjects = () => {
                             src={project.img}
                             alt={`Other project ${index + 1}`}
                         />
+                        <div className="overlay">
+                            <a href={project.link} target="_blank">
+                                <AiFillGithub />
+                            </a>
+                            <a href={project.link} target="_blank">
+                                <BsLink45Deg />
+                            </a>
+                        </div>
                     </div>
                 );
             })}

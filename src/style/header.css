@@ -17,7 +17,6 @@ header {
     padding: 4px 10px;
     align-items: center;
     margin-inline: auto;
-    /* background-color: white; */
     max-width: 750px;
     user-select: none;
     background: #f2ffff65;
@@ -29,7 +28,6 @@ header {
 }
 
 .tag {
-    font-family: "M PLUS Rounded 1c", sans-serif;
     margin-right: 10px;
     transition: rotate 0.5s linear;
 }
@@ -38,7 +36,6 @@ header {
     display: flex;
     align-items: center;
     line-height: 1;
-    /* font-size: 1.25em; */
 }
 
 li svg {
@@ -147,7 +144,6 @@ nav li a:hover {
     left: 50%;
     right: 0;
     border-radius: 5px;
-    /* background-color: var(--crl-bg); */
     background: #f2ffffcc;
     transition: all 0.35s ease-in-out;
 }

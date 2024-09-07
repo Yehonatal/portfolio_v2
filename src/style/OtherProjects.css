@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, auto);
+    transition: all 100ms ease-in-out;
     gap: 10px;
     padding: 10px;
 }
@@ -11,6 +12,43 @@
     border-radius: 8px;
     overflow: hidden;
     position: relative;
+}
+.overlay {
+    position: absolute;
+    border: 0 solid transparent;
+    border-radius: 8px;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    transition: all 100ms ease-in-out;
+    a {
+        font-size: 2rem;
+        color: transparent;
+        font-weight: bold;
+    }
+
+    gap: 25px;
+}
+.grid-item:hover {
+    box-shadow: 4px 4px 0px rgb(0, 122, 122);
+}
+.overlay:hover {
+    border: 2px solid teal;
+    background-color: rgba(0, 128, 128, 0.05);
+    a {
+        font-size: 25px;
+        color: teal;
+        font-weight: bold;
+        transition: scale 200ms ease-in-out;
+    }
+
+    a:hover {
+        scale: 1.5;
+    }
 }
 
 .grid-item img {
