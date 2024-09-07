@@ -91,15 +91,15 @@ meter {
 }
 
 .light_theme {
-    --crl-bg: #f0e7db;
+    --crl-bg: white;
     --crl-txt: #202020;
-    --crl-glass: rgba(255, 255, 255, 0.534);
+    --crl-glass: rgba(255, 255, 255, 0.281);
 }
 
 .dark_theme {
     --crl-txt: white;
     --crl-bg: #202020;
-    --crl-glass: rgba(255, 255, 255, 0.25);
+    --crl-glass: rgba(48, 48, 48, 0.329);
 }
 
 :root {
@@ -110,6 +110,7 @@ body {
     font-family: var(--ff-family);
     color: var(--crl-txt);
     padding: 0 20px;
+    background-color: var(--crl-bg);
     transition: background-color 0.3s ease-in-out;
     font-size: 0.95em !important;
 }

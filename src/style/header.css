@@ -6,12 +6,12 @@ header {
     width: 100%;
 
     z-index: 2;
-    /* backdrop-filter: blur(15px); */
 }
 
 .header_container {
-    border: 1px solid #f2ffff65;
-    border-radius: 10px;
+    border: solid var(--crl-bg);
+    border-width: 0 1px 1px 1px;
+    border-radius: 0 0 10px 10px;
     display: flex;
     margin: 0 10px;
     padding: 4px 10px;
@@ -19,7 +19,7 @@ header {
     margin-inline: auto;
     max-width: 750px;
     user-select: none;
-    background: #f2ffff65;
+    background: var(--crl-glass);
     backdrop-filter: blur(10px);
 }
 
@@ -137,14 +137,13 @@ nav li a:hover {
 
 .hum_menu_container {
     position: absolute;
-    /* display: block; */
     border: 1px solid rgb(215, 215, 215);
     padding: 5px 20px;
     top: 50px;
     left: 50%;
     right: 0;
     border-radius: 5px;
-    background: #f2ffffcc;
+    background: var(--crl-bg);
     transition: all 0.35s ease-in-out;
 }
 

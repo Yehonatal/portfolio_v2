@@ -2,32 +2,28 @@ import { GithubOutlined } from "@ant-design/icons";
 import "../style/header.css";
 import { FaCloudMoon } from "react-icons/fa";
 import { BiMenuAltLeft } from "react-icons/bi";
-
 import { Link } from "react-router-dom";
+
 function Header() {
     function changeTheme() {
-        // if (document.querySelector("body")?.classList.contains("light_theme")) {
-        //     document.querySelector("body")?.setAttribute("class", "dark_theme");
-        // } else {
-        //     document
-        //         .querySelector("body")
-        //         ?.setAttribute("class", "light_theme");
-        // }
+        const body = document.querySelector("body");
+
+        if (body?.classList.contains("light_theme")) {
+            body.classList.remove("light_theme");
+            body.classList.add("dark_theme");
+        } else {
+            body?.classList.remove("dark_theme");
+            body?.classList.add("light_theme");
+        }
     }
 
     function humActions() {
-        if (
-            document
-                .querySelector(".hum_menu_container")
-                ?.classList.contains("hide")
-        ) {
-            document
-                .querySelector(".hum_menu_container")
-                ?.setAttribute("class", "hum_menu_container");
+        const menuContainer = document.querySelector(".hum_menu_container");
+
+        if (menuContainer?.classList.contains("hide")) {
+            menuContainer.classList.remove("hide");
         } else {
-            document
-                .querySelector(".hum_menu_container")
-                ?.setAttribute("class", "hum_menu_container hide");
+            menuContainer?.classList.add("hide");
         }
     }
 
@@ -35,7 +31,7 @@ function Header() {
         <header>
             <div className="header_container">
                 <div className="tag ">
-                    <Link to="/" className="tag_link  ">
+                    <Link to="/" className="tag_link">
                         Yonatan Afewerk
                     </Link>
                 </div>
@@ -46,10 +42,11 @@ function Header() {
                     <li>
                         <Link to="/posts">Posts</Link>
                     </li>
-                    <li className="flex ">
+                    <li className="flex">
                         <a
                             href="https://github.com/Yehonatal/portfolio_v2"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <div className="flex">
                                 <GithubOutlined />
@@ -57,7 +54,7 @@ function Header() {
                         </a>
                     </li>
                 </nav>
-                {/* changeTheme function for the onclick  */}
+                {/* Theme switcher */}
                 <div className="theme_switch">
                     <div className="switch" onClick={changeTheme}>
                         <FaCloudMoon />
@@ -78,6 +75,7 @@ function Header() {
                         <a
                             href="https://github.com/Yehonatal/portfolio_v2"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <li>
                                 <GithubOutlined />
