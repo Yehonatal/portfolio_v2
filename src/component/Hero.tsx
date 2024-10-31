@@ -1,5 +1,5 @@
 import "../style/hero.css";
-import hero_img from "../assets/me.png";
+import hero_img from "../assets/me.jpg";
 import { BsArrowBarRight } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
@@ -12,10 +12,8 @@ const Hero = () => {
             <div className="glassTag">
                 <p>
                     Hello, I'm a passionate Developer from Ethiopia!
-                    <br /> 
-                    <span className="dev-flag">
-                    site in development
-                    </span>
+                    <br />
+                    <span className="dev-flag">site in development</span>
                 </p>
             </div>
 
@@ -77,8 +75,8 @@ const Hero = () => {
                 </div>
                 <div className="stack">
                     <span className="stack_tag">2022</span>
-                    When I actually started to enjoy programming and thought of it
-                    as a career, i would excel in if i give it my all.
+                    When I actually started to enjoy programming and thought of
+                    it as a career, i would excel in if i give it my all.
                 </div>
                 <div className="stack">
                     <span className="stack_tag">2023 to present</span>
