@@ -48,6 +48,10 @@
     text-align: justify;
     hyphens: auto;
 }
+.blog-content a {
+    display: flex;
+    align-items: center;
+}
 
 .blog-card a {
     display: block;
